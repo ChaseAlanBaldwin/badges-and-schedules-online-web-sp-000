@@ -29,6 +29,7 @@ def printer(names)
   y = 0
   until y === message.length + rooms.length do
     puts message[y]
+    puts rooms[y]
     y += 1
   end
 end
