@@ -15,10 +15,10 @@ end
 
 def assign_rooms(namesForRooms)
   room_assignments = []
-  i = 0 
+  i = 0
   until i === namesArray.length do
     messages.push(badge_maker(namesArray[i]))
     i += 1
   end
-  
+
 end
