@@ -12,5 +12,3 @@ def batch_badge_creator(namesArray)
   end
   return messages
 end
-
-
