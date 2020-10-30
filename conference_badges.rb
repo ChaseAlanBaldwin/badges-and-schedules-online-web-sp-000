@@ -17,7 +17,7 @@ def assign_rooms(namesForRooms)
   room_assignments = []
   i = 0
   until i === namesArray.length do
-    messages.push(badge_maker(namesArray[i]))
+    room_assignments.push("Hello, #{namesForRooms[i]}! You'll be assigned to room #{i}!)}
     i += 1
   end
 
