@@ -27,8 +27,14 @@ def printer(names)
   message = batch_badge_creator(names)
   rooms = assign_rooms(names)
   y = 0
-  until y === message.length + rooms.length do
-    puts message[y] + " " + rooms[y]
+  until y === message.length do
+    puts message[y]
     y += 1
   end
+  y = 0
+  until y === rooms.length do
+    puts rooms[y]
+    y += 1
+  end
+
 end
