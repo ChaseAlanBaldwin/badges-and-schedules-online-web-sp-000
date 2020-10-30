@@ -14,3 +14,5 @@ def batch_badge_creator(namesArray)
 end
 
 def assign_rooms(namesForRooms)
+  room_assignments = []
+end
