@@ -36,5 +36,4 @@ def printer(names)
     puts rooms[y]
     y += 1
   end
-
 end
