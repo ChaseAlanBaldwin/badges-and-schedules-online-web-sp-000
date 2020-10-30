@@ -16,7 +16,7 @@ end
 def assign_rooms(namesForRooms)
   room_assignments = []
   i = 0
-  until i === namesArray.length do
+  until i === namesForRooms.length do
     room_assignments.push("Hello, #{namesForRooms[i]}! You'll be assigned to room #{i}!")
     i += 1
   end
