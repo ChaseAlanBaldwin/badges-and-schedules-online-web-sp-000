@@ -7,8 +7,8 @@ def batch_badge_creator(namesArray)
   messages = []
   x = 0
   until x === namesArray.length do
-    x += 1
     messages.push(badge_maker(namesArray[x]))
+    x += 1
   end
   return messages
 end
