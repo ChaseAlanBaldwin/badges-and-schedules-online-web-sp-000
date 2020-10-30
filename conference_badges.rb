@@ -13,4 +13,4 @@ def batch_badge_creator(namesArray)
   return messages
 end
 
-.each { |n| puts "Current number is: #{n}" }
+
