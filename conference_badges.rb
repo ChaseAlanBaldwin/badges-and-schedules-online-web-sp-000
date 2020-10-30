@@ -28,7 +28,7 @@ def printer(names)
   rooms = assign_rooms(names)
   y = 0
   until y === message.length + rooms.length do
-    print message[y] + " " + rooms[y]
+    puts message[y] + " " + rooms[y]
     y += 1
   end
 end
